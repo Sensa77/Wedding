@@ -1,0 +1,84 @@
+.container {
+  background-image: url(../../img/background.jpg), url(../../img/background-branch.webp);
+  background-repeat: repeat-x, no-repeat;
+  background-size: 50%, cover;
+  background-attachment: fixed, scroll;
+  height: 1000px;
+}
+
+.invitation {
+  display: flex;
+  align-items: center;
+  border: 50px solid #fff;
+  background-color: #eeece9;
+  color: var(--c-brown-0);
+  padding: 50px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.title, .text, .ceremony, .restaurant {
+  font-size: 20px;
+  line-height: 22px;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 67px;
+  line-height: 70px;
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.icon {
+  margin-bottom: 30px;
+}
+
+.text {
+  margin-bottom: 30px;
+}
+
+.date {
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.3em;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.ceremony, .restaurant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ceremony {
+  margin-bottom: 30px;
+}
+
+.ceremony p, .restaurant p {
+  margin: 0;
+}
+
+.ceremony span, .restaurant span {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.restaurant p {
+  margin-bottom: 5px;
+}
+
+

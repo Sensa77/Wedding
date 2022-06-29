@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "BSC";
+  src: url("../src/font/AlongSerifBSC-Regular.woff") format("woff"),
+    url("../src/font/AlongSerifBSC-Regular.eot") format("eot"),
+    url("../src/font/AlongSerifBSC-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BSC";
+  src: url("../src/font/AlongSerifBSC-RegularItalic.woff") format("woff"),
+    url("../src/font/AlongSerifBSC-RegularItalic.eot") format("eot"),
+    url("../src/font/AlongSerifBSC-RegularItalic.ttf") format("ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "BSC";
+  src: url("../src/font/AlongSerifBSC-Bold.woff") format("woff"),
+    url("../src/font/AlongSerifBSC-Bold.eot") format("eot"),
+    url("../src/font/AlongSerifBSC-Bold.ttf") format("ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BSC";
+  src: url("../src/font/AlongSerifBSC-BoldItalic.woff") format("woff"),
+    url("../src/font/AlongSerifBSC-BoldItalic.eot") format("eot"),
+    url("../src/font/AlongSerifBSC-BoldItalic.ttf") format("ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "BSC";
+  src: url("../src/font/AlongSerifBSC-Light.woff") format("woff"),
+    url("../src/font/AlongSerifBSC-Light.eot") format("eot"),
+    url("../src/font/AlongSerifBSC-Light.ttf") format("ttf");
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BSC";
+  src: url("../src/font/AlongSerifBSC-ExtraLight.woff") format("woff"),
+    url("../src/font/AlongSerifBSC-ExtraLight.eot") format("eot"),
+    url("../src/font/AlongSerifBSC-ExtraLight.ttf") format("ttf");
+  font-weight: extra;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BSC";
+  src: url("../src/font/AlongSerifBSC-Thin.woff") format("woff"),
+    url("../src/font/AlongSerifBSC-Thin.eot") format("eot"),
+    url("../src/font/AlongSerifBSC-Thin.ttf") format("ttf");
+  font-weight: thin;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BSC";
+  src: url("../src/font/AlongSerifBSC-Medium.woff") format("woff"),
+    url("../src/font/AlongSerifBSC-Medium.eot") format("eot"),
+    url("../src/font/AlongSerifBSC-Medium.ttf") format("ttf");
+  font-weight: medium;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'BSC', -apple-system, BlinkMacSystemFont, 'BSC', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

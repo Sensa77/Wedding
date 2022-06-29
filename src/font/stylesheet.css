@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Along Serif BSC';
+    src: url('AlongSerifBSC-Black.eot');
+    src: local('Along Serif BSC Black'), local('AlongSerifBSC-Black'),
+        url('AlongSerifBSC-Black.eot?#iefix') format('embedded-opentype'),
+        url('AlongSerifBSC-Black.woff2') format('woff2'),
+        url('AlongSerifBSC-Black.woff') format('woff'),
+        url('AlongSerifBSC-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Along Serif BSC';
+    src: url('AlongSerifBSC-BoldItalic.eot');
+    src: local('Along Serif BSC Bold Italic'), local('AlongSerifBSC-BoldItalic'),
+        url('AlongSerifBSC-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('AlongSerifBSC-BoldItalic.woff2') format('woff2'),
+        url('AlongSerifBSC-BoldItalic.woff') format('woff'),
+        url('AlongSerifBSC-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Along Serif BSC';
+    src: url('AlongSerifBSC-Light.eot');
+    src: local('Along Serif BSC Light'), local('AlongSerifBSC-Light'),
+        url('AlongSerifBSC-Light.eot?#iefix') format('embedded-opentype'),
+        url('AlongSerifBSC-Light.woff2') format('woff2'),
+        url('AlongSerifBSC-Light.woff') format('woff'),
+        url('AlongSerifBSC-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Along Serif BSC Semi';
+    src: url('AlongSerifBSC-SemiBoldItalic.eot');
+    src: local('Along Serif BSC Semi Bold Italic'), local('AlongSerifBSC-SemiBoldItalic'),
+        url('AlongSerifBSC-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('AlongSerifBSC-SemiBoldItalic.woff2') format('woff2'),
+        url('AlongSerifBSC-SemiBoldItalic.woff') format('woff'),
+        url('AlongSerifBSC-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Along Serif BSC';
+    src: url('AlongSerifBSC-MediumItalic.eot');
+    src: local('Along Serif BSC Medium Italic'), local('AlongSerifBSC-MediumItalic'),
+        url('AlongSerifBSC-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('AlongSerifBSC-MediumItalic.woff2') format('woff2'),
+        url('AlongSerifBSC-MediumItalic.woff') format('woff'),
+        url('AlongSerifBSC-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Along Serif BSC';
+    src: url('AlongSerifBSC-LightItalic.eot');
+    src: local('Along Serif BSC Light Italic'), local('AlongSerifBSC-LightItalic'),
+        url('AlongSerifBSC-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('AlongSerifBSC-LightItalic.woff2') format('woff2'),
+        url('AlongSerifBSC-LightItalic.woff') format('woff'),
+        url('AlongSerifBSC-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Along Serif BSC Extra';
+    src: url('AlongSerifBSC-ExtraLightItalic.eot');
+    src: local('Along Serif BSC Extra Light Italic'), local('AlongSerifBSC-ExtraLightItalic'),
+        url('AlongSerifBSC-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('AlongSerifBSC-ExtraLightItalic.woff2') format('woff2'),
+        url('AlongSerifBSC-ExtraLightItalic.woff') format('woff'),
+        url('AlongSerifBSC-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Along Serif BSC Semi';
+    src: url('AlongSerifBSC-SemiBold.eot');
+    src: local('Along Serif BSC Semi Bold'), local('AlongSerifBSC-SemiBold'),
+        url('AlongSerifBSC-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('AlongSerifBSC-SemiBold.woff2') format('woff2'),
+        url('AlongSerifBSC-SemiBold.woff') format('woff'),
+        url('AlongSerifBSC-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Along Serif BSC';
+    src: url('AlongSerifBSC-Bold.eot');
+    src: local('Along Serif BSC Bold'), local('AlongSerifBSC-Bold'),
+        url('AlongSerifBSC-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AlongSerifBSC-Bold.woff2') format('woff2'),
+        url('AlongSerifBSC-Bold.woff') format('woff'),
+        url('AlongSerifBSC-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Along Serif BSC';
+    src: url('AlongSerifBSC-BlackItalic.eot');
+    src: local('Along Serif BSC Black Italic'), local('AlongSerifBSC-BlackItalic'),
+        url('AlongSerifBSC-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('AlongSerifBSC-BlackItalic.woff2') format('woff2'),
+        url('AlongSerifBSC-BlackItalic.woff') format('woff'),
+        url('AlongSerifBSC-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Along Serif BSC';
+    src: url('AlongSerifBSC-ThinItalic.eot');
+    src: local('Along Serif BSC Thin Italic'), local('AlongSerifBSC-ThinItalic'),
+        url('AlongSerifBSC-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('AlongSerifBSC-ThinItalic.woff2') format('woff2'),
+        url('AlongSerifBSC-ThinItalic.woff') format('woff'),
+        url('AlongSerifBSC-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Along Serif BSC';
+    src: url('AlongSerifBSC-RegularItalic.eot');
+    src: local('Along Serif BSC Italic'), local('AlongSerifBSC-RegularItalic'),
+        url('AlongSerifBSC-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('AlongSerifBSC-RegularItalic.woff2') format('woff2'),
+        url('AlongSerifBSC-RegularItalic.woff') format('woff'),
+        url('AlongSerifBSC-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Along Serif BSC Extra';
+    src: url('AlongSerifBSC-ExtraBold.eot');
+    src: local('Along Serif BSC Extra Bold'), local('AlongSerifBSC-ExtraBold'),
+        url('AlongSerifBSC-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('AlongSerifBSC-ExtraBold.woff2') format('woff2'),
+        url('AlongSerifBSC-ExtraBold.woff') format('woff'),
+        url('AlongSerifBSC-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Along Serif BSC Extra';
+    src: url('AlongSerifBSC-ExtraBoldItalic.eot');
+    src: local('Along Serif BSC Extra Bold Italic'), local('AlongSerifBSC-ExtraBoldItalic'),
+        url('AlongSerifBSC-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('AlongSerifBSC-ExtraBoldItalic.woff2') format('woff2'),
+        url('AlongSerifBSC-ExtraBoldItalic.woff') format('woff'),
+        url('AlongSerifBSC-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Along Serif BSC Extra';
+    src: url('AlongSerifBSC-ExtraLight.eot');
+    src: local('Along Serif BSC Extra Light'), local('AlongSerifBSC-ExtraLight'),
+        url('AlongSerifBSC-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('AlongSerifBSC-ExtraLight.woff2') format('woff2'),
+        url('AlongSerifBSC-ExtraLight.woff') format('woff'),
+        url('AlongSerifBSC-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Along Serif BSC';
+    src: url('AlongSerifBSC-Medium.eot');
+    src: local('Along Serif BSC Medium'), local('AlongSerifBSC-Medium'),
+        url('AlongSerifBSC-Medium.eot?#iefix') format('embedded-opentype'),
+        url('AlongSerifBSC-Medium.woff2') format('woff2'),
+        url('AlongSerifBSC-Medium.woff') format('woff'),
+        url('AlongSerifBSC-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Along Serif BSC';
+    src: url('AlongSerifBSC-Regular.eot');
+    src: local('Along Serif BSC'), local('AlongSerifBSC-Regular'),
+        url('AlongSerifBSC-Regular.eot?#iefix') format('embedded-opentype'),
+        url('AlongSerifBSC-Regular.woff2') format('woff2'),
+        url('AlongSerifBSC-Regular.woff') format('woff'),
+        url('AlongSerifBSC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Along Serif BSC';
+    src: url('AlongSerifBSC-Thin.eot');
+    src: local('Along Serif BSC Thin'), local('AlongSerifBSC-Thin'),
+        url('AlongSerifBSC-Thin.eot?#iefix') format('embedded-opentype'),
+        url('AlongSerifBSC-Thin.woff2') format('woff2'),
+        url('AlongSerifBSC-Thin.woff') format('woff'),
+        url('AlongSerifBSC-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
