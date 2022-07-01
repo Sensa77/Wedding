@@ -8,7 +8,7 @@ import { Location } from "./components/Location";
 
 const App = () => {
   return (
-<div>
+<div style={{paddingBottom: 150}}>
 <Header/>
 <Invitation/>
 <History/>
