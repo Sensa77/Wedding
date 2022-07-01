@@ -5,6 +5,7 @@ import { Invitation } from "./components/Invitation";
 import { History } from "./components/History/History";
 import { Wedding } from "./components/Wedding/Wedding";
 import { Location } from "./components/Location";
+import { Gallery } from "./components/Gallery/Gallery";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
 <History/>
 <Wedding/>
 <Location/>
+<Gallery/>
 </div>
   )
 }

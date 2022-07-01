@@ -1,0 +1,18 @@
+@import "slick-carousel/slick/slick.scss";
+@import "slick-carousel/slick/slick-theme.scss";
+
+.container {
+  padding: 100px;
+  background-color: var(--c-beige-0);
+}
+
+.slider {
+  margin: 0 auto;
+  height: 900px;
+  width: 900px;
+  border: 50px solid var(--c-white-1);
+}
+
+.slick-arrow {
+  color: aqua;
+}
