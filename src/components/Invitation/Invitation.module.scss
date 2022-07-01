@@ -1,16 +1,16 @@
 .container {
   background-image: url(../../img/background.jpg), url(../../img/background-branch.webp);
   background-repeat: repeat-x, no-repeat;
-  background-size: 50%  , cover;
-  background-attachment: fixed, scroll;
+  background-size: 50%, cover;
+  background-attachment: inherit, scroll;
   height: 1000px;
 }
 
 .invitation {
   display: flex;
   align-items: center;
-  border: 50px solid #fff;
-  background-color: #eeece9;
+  border: 50px solid var(--c-white-1);
+  background-color: var(--c-beige-0);
   color: var(--c-brown-0);
   padding: 50px;
   width: fit-content;
