@@ -9,7 +9,7 @@ import { Gallery } from "./components/Gallery/Gallery";
 
 const App = () => {
   return (
-<div>
+<div style={{paddingBottom: 150}}>
 <Header/>
 <Invitation/>
 <History/>
