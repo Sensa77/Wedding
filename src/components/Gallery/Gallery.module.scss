@@ -13,6 +13,46 @@
   border: 50px solid var(--c-white-1);
 }
 
-.slick-arrow {
-  color: aqua;
+.slider button {
+  width: 35px;
+  height: 35px;
+  right: -40px;
 }
+
+.slider button:first-child {
+  left: -40px;
+}
+
+.slider button::before {
+  font-size: 32px;
+  color: var(--c-brown-0);
+  opacity: 1;
+}
+
+.photo{
+  object-fit: cover;
+  object-position: 0% 30%;
+}
+
+.voda, .newYear {
+  object-position: 0% 70%;
+}
+
+.pub, .oldWedding {
+  object-position: 0% 10%;
+}
+
+.snow, .park {
+  object-position: 80% 0%;
+}
+
+.oldSea, .school, .bird, .sbs {
+  object-position: 40% 0%;
+}
+
+.karasun {
+  object-position: 60% 0%;
+}
+
+
+
