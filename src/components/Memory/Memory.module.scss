@@ -1,0 +1,46 @@
+.container {
+  padding: 130px 100px 100px 100px;
+  background-image: url(../../img/background.jpg);
+  font-style: italic;
+  color: var(--c-brown-0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 7.5px;
+  margin-bottom: 30px;
+}
+
+.background {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-color: var(--c-beige-0);
+  border: 50px solid var(--c-white-1);
+}
+
+.description, .call {
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.hashtag {
+  font-size: 28px;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.call {
+  margin-bottom: 50px;
+}

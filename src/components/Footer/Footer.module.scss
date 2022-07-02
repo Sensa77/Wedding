@@ -1,0 +1,26 @@
+.container {
+  padding: 30px 30px 10px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--c-beige-0);
+}
+
+.button {
+  width: 250px;
+  height: 50px;
+  background-color: var(--c-brown-0);
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.prodaction {
+  margin-top: 0;
+  font-style: italic;
+}

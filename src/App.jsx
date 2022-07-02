@@ -6,16 +6,20 @@ import { History } from "./components/History/History";
 import { Wedding } from "./components/Wedding/Wedding";
 import { Location } from "./components/Location";
 import { Gallery } from "./components/Gallery/Gallery";
+import { Memory } from "./components/Memory/Memory";
+import { Footer } from "./components/Footer/Footer";
 
 const App = () => {
   return (
-<div style={{paddingBottom: 150}}>
+<div>
 <Header/>
 <Invitation/>
 <History/>
 <Wedding/>
 <Location/>
 <Gallery/>
+<Memory/>
+<Footer/>
 </div>
   )
 }
