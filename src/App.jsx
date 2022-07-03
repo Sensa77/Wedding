@@ -32,7 +32,6 @@ const App = () => {
       <Element name="memory">
         <Memory />
       </Element>
-
       <Footer />
     </div>
   );

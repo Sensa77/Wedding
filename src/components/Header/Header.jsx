@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Header.module.scss";
 import { Link } from "react-scroll";
 
 export const Header = () => {
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      const scrolled = window.pageYOffset || document.documentElement.scrollTop;
+      if (scrolled !== 0) {
+        document.getElementById("header").style.opacity = "0.9";
+        document.getElementById("header").style.zIndex = "100";
+      } else {
+        document.getElementById("header").style.opacity = "1";
+      }
+    });
+  });
+
   return (
     <>
-      <nav className={styles.header}>
+      <nav className={styles.header} id="header">
         <ul className={styles.list}>
           <Link
             activeClass="active"
