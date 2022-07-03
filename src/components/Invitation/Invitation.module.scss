@@ -1,8 +1,8 @@
 .container {
-  background-image: url(../../img/background.jpg), url(../../img/background-branch.webp);
+  background: url(../../img/background.jpg), url(../../img/background-branch.webp);
   background-repeat: repeat-x, no-repeat;
   background-size: 50%, cover;
-  background-attachment: inherit, scroll;
+  background-attachment: scroll, fixed;
   height: 1000px;
   padding-top: 100px;
 }

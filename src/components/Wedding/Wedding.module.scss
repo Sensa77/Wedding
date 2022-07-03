@@ -24,20 +24,34 @@
   margin-bottom: 50px;
 }
 
+.date, .location {
+  display: flex;
+  flex-direction: column;
+}
+
 .caption {
   display: block;
   font-size: 72px;
   line-height: 74px;
   font-weight: 500;
+}
+
+.captionDate {
   margin-bottom: 30px;
 }
 
+.captionLocation {
+  margin-bottom: 27px;
+}
+
 .description {
+  text-decoration: none;
   max-width: 250px;
   font-size: 18px;
   line-height: 20px;
   margin: 0;
   margin-bottom: 20px;
+  color: var(--c-brown-0);
 }
 
 .button {

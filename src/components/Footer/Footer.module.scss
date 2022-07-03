@@ -20,6 +20,11 @@
   margin-bottom: 20px;
 }
 
+.button:hover {
+  background-color: var(--c-green-0);
+  color: var(--c-beige-0);
+}
+
 .prodaction {
   margin-top: 0;
   font-style: italic;
