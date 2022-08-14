@@ -82,4 +82,76 @@
   margin-bottom: 5px;
 }
 
+.picture {
+  width: 300px;
+  height: 600px;
+}
+
+@media(max-width: 1280px) {
+  .container {
+    background-size: 70%, cover;
+    height: 900px;
+  }
+
+  .invitation {
+    border: 30px solid var(--c-white-1);
+    padding: 30px;
+  }
+
+  .title, .text, .ceremony, .restaurant {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .name {
+    font-size: 60px;
+    line-height: 62px;
+  }
+
+  .picture {
+    width: 250px;
+    height: 500px;
+  }
+}
+
+@media(max-width: 1050px) {
+
+  .container {
+    height: 750px;
+  }
+
+  .invitation {
+    border: 30px solid var(--c-white-1);
+    padding: 20px;
+  }
+
+  .title, .text, .ceremony, .restaurant {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+
+  .date {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+
+  .name {
+    font-size: 40px;
+    line-height: 42px;
+    margin-bottom: 15px;
+  }
+
+  .icon {
+    margin-bottom: 15px;
+  }
+
+  .picture {
+    width: 200px;
+    height: 400px;
+  }
+}
+
+
 

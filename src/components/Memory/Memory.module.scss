@@ -44,3 +44,29 @@
 .call {
   margin-bottom: 50px;
 }
+
+@media(max-width:1280px) {
+  .container {
+    padding: 70px;
+  }
+
+  .title, .description, .call {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .hashtag {
+    font-size: 24px;
+    line-height: 26px;
+  }
+}
+
+@media(max-width: 1050px) {
+  .container {
+    padding: 50px;
+  }
+
+  .background {
+    border: 30px solid var(--c-white-1);
+  }
+}

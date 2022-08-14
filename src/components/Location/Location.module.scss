@@ -29,9 +29,11 @@
 }
 
 .location {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+  column-gap: 50px;
+  row-gap: 50px;
   width: 100%;
-  justify-content: space-between;
 }
 
 .block {
@@ -41,7 +43,7 @@
 }
 
 .map {
-  width: 800px;
+  width: 100%;
   height: 560px;
   margin-bottom: 50px;
   border: 30px solid var(--c-white-1);
@@ -56,4 +58,40 @@
   line-height: 22px;
   letter-spacing: 1.2px;
   margin-bottom: 30px;
+}
+
+@media(max-width:1280px) {
+  .container {
+    padding: 70px;
+  }
+
+  .title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .caption {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media(max-width: 1050px) {
+  .container {
+    padding: 50px;
+  }
+
+  .title, .caption {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  
+  .map {
+    width: 600px;
+    height: 500px;
+  }
+
+  .yandex {
+    height: 440px;
+  }
 }

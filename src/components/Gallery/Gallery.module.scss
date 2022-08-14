@@ -54,5 +54,21 @@
   object-position: 60% 0%;
 }
 
+@media(max-width: 1050px) {
+  .container {
+    padding: 50px;
+
+    .slider {
+      width: 700px;
+      height: 700px;
+    }
+
+    .photo {
+      width: 600px;
+      height: 600px;
+    }
+  }
+}
+
 
 

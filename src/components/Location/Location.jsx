@@ -17,6 +17,7 @@ export const Location = () => {
       <YMaps>
         <div className={styles.map}>
           <Map
+          className={styles.yandex}
             defaultOptions={{
               autoFitToViewport: 'always'
             }}
@@ -34,6 +35,7 @@ export const Location = () => {
       <YMaps>
         <div className={styles.map}>
           <Map
+          className={styles.yandex}
             defaultOptions={{
               autoFitToViewport: 'always'
             }}

@@ -36,3 +36,42 @@
 .picture {
   margin-top: 50px;
 }
+
+@media(max-width: 1280px) {
+
+  .container {
+    padding: 70px
+  }
+
+  .title {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+
+  .caption, .text {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 70px;
+  }
+}
+
+@media(max-width: 1050px) {
+  .container {
+    padding: 50px;
+  }
+  .title, .caption, .text {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .text {
+    width: 800px;
+  }
+
+  .picture {
+    margin-top: 30px;
+    width: 120px;
+    height: 77px;
+  }
+}
