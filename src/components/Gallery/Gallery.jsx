@@ -1,23 +1,23 @@
 import React from "react";
 import styles from './Gallery.module.scss';
-import weddingPhoto from './wedding.jpg';
-import sea from './sea2.jpg';
-import voda from './voda.jpg';
-import pub from './pub.jpg';
-import ikea from './ikea.jpg';
-import snow from './snow.jpg';
-import newYear from './newYear.jpg';
-import park from './park.jpg';
-import oldSea from './sea.jpg';
-import school from './school.jpg';
-import bird from './bird.jpg';
-import home from './home.jpg';
-import bridge from './bridge.jpg';
-import valentine from './valentine.jpg';
-import karasun from './karasun.jpg';
-import oldWedding from './oldWedding.jpg';
-import myHome from './myHome.jpg';
-import sbs from './sbs.jpg';
+import weddingPhoto from '../../img/min-image/wedding.jpg';
+import sea from "../../img/min-image/sea2.jpg";
+import voda from "../../img/min-image/voda.jpg";
+import pub from "../../img/min-image/pub.jpg";
+import ikea from "../../img/min-image/ikea.jpg";
+import snow from "../../img/min-image/snow.jpg";
+import newYear from "../../img/min-image/newYear.jpg";
+import park from "../../img/min-image/park.jpg";
+import oldSea from "../../img/min-image/sea.jpg";
+import school from "../../img/min-image/school.jpg";
+import bird from "../../img/min-image/bird.jpg";
+import home from "../../img/min-image/home.jpg";
+import bridge from "../../img/min-image/bridge.jpg";
+import valentine from "../../img/min-image/valentine.jpg";
+import karasun from "../../img/min-image/karasun.jpg";
+import oldWedding from "../../img/min-image/oldWedding.jpg";
+import myHome from "../../img/min-image/myHome.jpg";
+import sbs from "../../img/min-image/sbs.jpg";
 import Slider from "react-slick";
 
 
@@ -34,6 +34,7 @@ export const Gallery = () => {
 
   return (
     <div className={styles.container}>
+      {console.log(123)}
       <Slider {...settings} className={styles.slider} originalHeigth="800px" originalWidth="900px">
       <div>
         <img src={weddingPhoto} width="800px" height="800px" className={`${styles.photo} ${styles.wedding}`}/>
