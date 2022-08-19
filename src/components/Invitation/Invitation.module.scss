@@ -1,20 +1,22 @@
 .container {
-  background: url(../../img/background.jpg), url(../../img/background-branch.webp);
+  background: url(../../img/background.jpg), url(../../img/background-branch2.jpg);
   background-repeat: repeat-x, no-repeat;
   background-size: 50%, cover;
   background-attachment: scroll, fixed;
   height: 1000px;
-  padding-top: 100px;
 }
 
 .invitation {
+  max-width: 100%;
+  width: 980px;
   display: flex;
   align-items: center;
+  justify-content: center;
   border: 50px solid var(--c-white-1);
+  background: url(./branch-left.png) no-repeat 40px 20px, url(./branch-right.png) no-repeat 520px 30px;
   background-color: var(--c-beige-0);
   color: var(--c-brown-0);
   padding: 50px;
-  width: fit-content;
   margin: 0 auto;
 }
 
@@ -87,6 +89,10 @@
   height: 600px;
 }
 
+.endline {
+  display: none;
+}
+
 @media(max-width: 1280px) {
   .container {
     background-size: 70%, cover;
@@ -154,4 +160,45 @@
 }
 
 
+@media (max-width: 640px) {
+  .container {
+    background-color: var(--c-white-0);
+    height: auto;
+    padding-bottom: 150px;
+  }
+  .icon {
+    display: none;
+  }
 
+  .title {
+    margin-bottom: 0;
+  }
+
+  .text {
+    margin-top: 0;
+  }
+
+  .endline {
+    display: block;
+  }
+
+  .name {
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 95px;
+    background: url(./branch-left.png) no-repeat, url(./branch-right.png) no-repeat;
+    background-size: 104px 199px;
+    background-position: 0px 60%, 153px 60%;
+    margin-bottom: 0;
+  }
+
+  .invitation {
+    background-image: none;
+    border: 10px solid var(--c-white-0);
+    border-bottom: 50px solid var(--c-white-0);
+    padding: 10px;
+    margin-top: 50px;
+  }
+}

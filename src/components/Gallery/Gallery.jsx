@@ -33,64 +33,158 @@ export const Gallery = () => {
   };
 
   return (
-    <div className={styles.container}>
-      {console.log(123)}
-      <Slider {...settings} className={styles.slider} originalHeigth="800px" originalWidth="900px">
-      <div>
-        <img src={weddingPhoto} width="800px" height="800px" className={`${styles.photo} ${styles.wedding}`}/>
-      </div>
-      <div>
-      <img src={sea} width="800px" height="800px" className={`${styles.photo} ${styles.sea}`}/>
-      </div>
-      <div>
-      <img src={voda} width="800px" height="800px" className={`${styles.photo} ${styles.voda}`}/>
-      </div>
-      <div>
-      <img src={pub} width="800px" height="800px" className={`${styles.photo} ${styles.pub}`}/>
-      </div>
-      <div>
-      <img src={ikea} width="800px" height="800px" className={`${styles.photo} ${styles.ikea}`}/>
-      </div>
-      <div>
-      <img src={snow} width="800px" height="800px" className={`${styles.photo} ${styles.snow}`}/>
-      </div>
-      <div>
-      <img src={newYear} width="800px" height="800px" className={`${styles.photo} ${styles.newYear}`}/>
-      </div>
-      <div>
-      <img src={park} width="800px" height="800px" className={`${styles.photo} ${styles.park}`}/>
-      </div>
-      <div>
-      <img src={oldSea} width="800px" height="800px" className={`${styles.photo} ${styles.oldSea}`}/>
-      </div>
-      <div>
-      <img src={school} width="800px" height="800px" className={`${styles.photo} ${styles.school}`}/>
-      </div>
-      <div>
-      <img src={bird} width="800px" height="800px" className={`${styles.photo} ${styles.bird}`}/>
-      </div>
-      <div>
-      <img src={home} width="800px" height="800px" className={`${styles.photo} ${styles.home}`}/>
-      </div>
-      <div>
-      <img src={bridge} width="800px" height="800px" className={`${styles.photo} ${styles.bridge}`}/>
-      </div>
-      <div>
-      <img src={valentine} width="800px" height="800px" className={`${styles.photo} ${styles.valentine}`}/>
-      </div>
-      <div>
-      <img src={karasun} width="800px" height="800px" className={`${styles.photo} ${styles.karasun}`}/>
-      </div>
-      <div>
-      <img src={oldWedding} width="800px" height="800px" className={`${styles.photo} ${styles.oldWedding}`}/>
-      </div>
-      <div>
-      <img src={myHome} width="800px" height="800px" className={`${styles.photo} ${styles.myHome}`}/>
-      </div>
-      <div>
-      <img src={sbs} width="800px" height="800px" className={`${styles.photo} ${styles.sbs}`}/>
-      </div>
-    </Slider>
+    <div name="gallery" className={styles.container}>
+      <Slider
+        {...settings}
+        className={styles.slider}
+        originalHeigth="800px"
+        originalWidth="900px"
+      >
+        <div>
+          <img
+            src={weddingPhoto}
+            width="800px"
+            height="800px"
+            className={`${styles.photo} ${styles.wedding}`}
+          />
+        </div>
+        <div>
+          <img
+            src={sea}
+            width="800px"
+            height="800px"
+            className={`${styles.photo} ${styles.sea}`}
+          />
+        </div>
+        <div>
+          <img
+            src={voda}
+            width="800px"
+            height="800px"
+            className={`${styles.photo} ${styles.voda}`}
+          />
+        </div>
+        <div>
+          <img
+            src={pub}
+            width="800px"
+            height="800px"
+            className={`${styles.photo} ${styles.pub}`}
+          />
+        </div>
+        <div>
+          <img
+            src={ikea}
+            width="800px"
+            height="800px"
+            className={`${styles.photo} ${styles.ikea}`}
+          />
+        </div>
+        <div>
+          <img
+            src={snow}
+            width="800px"
+            height="800px"
+            className={`${styles.photo} ${styles.snow}`}
+          />
+        </div>
+        <div>
+          <img
+            src={newYear}
+            width="800px"
+            height="800px"
+            className={`${styles.photo} ${styles.newYear}`}
+          />
+        </div>
+        <div>
+          <img
+            src={park}
+            width="800px"
+            height="800px"
+            className={`${styles.photo} ${styles.park}`}
+          />
+        </div>
+        <div>
+          <img
+            src={oldSea}
+            width="800px"
+            height="800px"
+            className={`${styles.photo} ${styles.oldSea}`}
+          />
+        </div>
+        <div>
+          <img
+            src={school}
+            width="800px"
+            height="800px"
+            className={`${styles.photo} ${styles.school}`}
+          />
+        </div>
+        <div>
+          <img
+            src={bird}
+            width="800px"
+            height="800px"
+            className={`${styles.photo} ${styles.bird}`}
+          />
+        </div>
+        <div>
+          <img
+            src={home}
+            width="800px"
+            height="800px"
+            className={`${styles.photo} ${styles.home}`}
+          />
+        </div>
+        <div>
+          <img
+            src={bridge}
+            width="800px"
+            height="800px"
+            className={`${styles.photo} ${styles.bridge}`}
+          />
+        </div>
+        <div>
+          <img
+            src={valentine}
+            width="800px"
+            height="800px"
+            className={`${styles.photo} ${styles.valentine}`}
+          />
+        </div>
+        <div>
+          <img
+            src={karasun}
+            width="800px"
+            height="800px"
+            className={`${styles.photo} ${styles.karasun}`}
+          />
+        </div>
+        <div>
+          <img
+            src={oldWedding}
+            width="800px"
+            height="800px"
+            className={`${styles.photo} ${styles.oldWedding}`}
+          />
+        </div>
+        <div>
+          <img
+            src={myHome}
+            width="800px"
+            height="800px"
+            className={`${styles.photo} ${styles.myHome}`}
+          />
+        </div>
+        <div>
+          <img
+            src={sbs}
+            width="800px"
+            height="800px"
+            className={`${styles.photo} ${styles.sbs}`}
+          />
+        </div>
+      </Slider>
     </div>
-  )
+  );
 }
