@@ -76,6 +76,7 @@
 
 
 body {
+  background-color: var(--c-white-0);
   margin: 0;
   font-family: 'BSC', -apple-system, BlinkMacSystemFont, 'BSC', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -87,4 +88,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+    max-width: 1000px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  .container {
+    max-width: 640px;
+    width: 100%;
+  }
 }
