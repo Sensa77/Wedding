@@ -29,3 +29,9 @@
   margin-top: 0;
   font-style: italic;
 }
+
+@media(max-width: 640px) {
+  .container {
+    background-image: url(../../img/background.jpg);
+  }
+}

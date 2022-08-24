@@ -11,7 +11,7 @@ export const Footer = () => {
   return (
     <div className={styles.container}>
       <button type='button' className={styles.button} onClick={scrollToTop}>Вернуться наверх</button>
-      <p className={styles.prodaction}>©2022 Aleksandra&Igor</p>
+      <p className={styles.prodaction}>©2022 Aleksandra & Igor</p>
     </div>
   )
 }

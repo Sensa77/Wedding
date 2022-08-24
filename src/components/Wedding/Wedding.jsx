@@ -32,7 +32,7 @@ export const Wedding = () => {
               target="_blank"
               className={styles.description}
             >
-              Ресторан - ул.Селезнева 189
+              Ресторан - ул. Мачуги, д. 139
             </a>
           </div>
         </div>

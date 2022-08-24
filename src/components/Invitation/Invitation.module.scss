@@ -13,11 +13,12 @@
   align-items: center;
   justify-content: center;
   border: 50px solid var(--c-white-1);
-  background: url(./branch-left.png) no-repeat 40px 20px, url(./branch-right.png) no-repeat 520px 30px;
+  background: url(./branch-left.png) no-repeat 40px 30px, url(./branch-right.png) no-repeat 560px 30px;
   background-color: var(--c-beige-0);
   color: var(--c-brown-0);
   padding: 50px;
   margin: 0 auto;
+  padding-top: 15px;
 }
 
 .wrapper {
@@ -27,7 +28,7 @@
   padding-top: 40px;
 }
 
-.title, .text, .ceremony, .restaurant {
+.title, .text, .ceremony, .restaurant, .dresscode {
   font-size: 20px;
   line-height: 22px;
   font-style: italic;
@@ -58,7 +59,7 @@
   letter-spacing: 0.3em;
   font-style: italic;
   margin-top: 0;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .ceremony, .restaurant {
@@ -68,7 +69,7 @@
 }
 
 .ceremony {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .ceremony p, .restaurant p {
@@ -92,6 +93,12 @@
 .endline {
   display: none;
 }
+
+.dresscode {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 
 @media(max-width: 1280px) {
   .container {
@@ -131,7 +138,7 @@
     padding: 20px;
   }
 
-  .title, .text, .ceremony, .restaurant {
+  .title, .text, .ceremony, .restaurant, .dresscode {
     font-size: 16px;
     line-height: 18px;
     margin-bottom: 20px;
@@ -164,7 +171,8 @@
   .container {
     background-color: var(--c-white-0);
     height: auto;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
+    padding-top: 50px;
   }
   .icon {
     display: none;
@@ -175,8 +183,11 @@
   }
 
   .text {
+    font-size: 18px;
+    line-height: 20px;
     margin-top: 0;
   }
+
 
   .endline {
     display: block;
@@ -190,14 +201,13 @@
     padding-bottom: 95px;
     background: url(./branch-left.png) no-repeat, url(./branch-right.png) no-repeat;
     background-size: 104px 199px;
-    background-position: 0px 60%, 153px 60%;
-    margin-bottom: 0;
+    background-position: 20px 60%, 185px 60%;
+    margin-bottom: 15px;
   }
 
   .invitation {
     background-image: none;
-    border: 10px solid var(--c-white-0);
-    border-bottom: 50px solid var(--c-white-0);
+    border: 20px solid var(--c-white-0);
     padding: 10px;
     margin-top: 50px;
   }

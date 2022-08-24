@@ -26,6 +26,7 @@ export const Invitation = () => {
           <img src={smallBranch} className={styles.icon} />
           <p className={styles.text}>Будем очень рады видеть вас</p>
           <p className={styles.date}>30 сентября 2022</p>
+          <p className={styles.dresscode}>Дресскод: одежда в пастельных тонах</p>
           <div className={styles.ceremony}>
             <span>Церемония</span>
             <p>ул.Стасова, 174/1 (по желанию)</p>
@@ -35,6 +36,7 @@ export const Invitation = () => {
             <p>Ресторан "БогАрт"</p>
             <p>ул. Василия Мачуги, д. 139</p>
           </div>
+          
         </div>
       </div>
     </div>

@@ -17,8 +17,6 @@ export const Memory = () => {
         <img
           className={styles.collage}
           src={collage}
-          width="700px"
-          height="400px"
         />
       </div>
     </div>
