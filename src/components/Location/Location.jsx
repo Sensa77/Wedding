@@ -12,9 +12,10 @@ export const Location = () => {
       </video>
       <span className={styles.title}>Как добраться</span>
       <div className={styles.location}>
-        <div className={styles.block}>
-          <span className={styles.caption}>Церемония</span>
-          <YMaps>
+        <YMaps>
+          <div className={styles.block}>
+            <span className={styles.caption}>Церемония</span>
+
             <div className={styles.map}>
               <Map
                 className={styles.yandex}
@@ -27,11 +28,9 @@ export const Location = () => {
                 <Placemark defaultGeometry={[45.023966, 39.043944]} />
               </Map>
             </div>
-          </YMaps>
-        </div>
-        <div className={styles.block}>
-          <span className={styles.caption}>Ресторан</span>
-          <YMaps>
+          </div>
+          <div className={styles.block}>
+            <span className={styles.caption}>Ресторан</span>
             <div className={styles.map}>
               <Map
                 className={styles.yandex}
@@ -45,8 +44,8 @@ export const Location = () => {
                 <Placemark defaultGeometry={[45.015031, 39.088161]} />
               </Map>
             </div>
-          </YMaps>
-        </div>
+          </div>
+        </YMaps>
       </div>
     </div>
   );
