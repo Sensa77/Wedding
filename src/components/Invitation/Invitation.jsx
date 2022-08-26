@@ -19,6 +19,7 @@ export const Invitation = () => {
           <p className={styles.title}>Приглашение на свадьбу</p>
           <span className={styles.name}>
             {`${guest1}`}
+            <br className={styles.endline} />
             {isGuest1 && guest2 && " и "}
             <br className={styles.endline} />
             {isGuest1 && guest2 && `${guest2}`}
@@ -36,7 +37,7 @@ export const Invitation = () => {
             <p>Ресторан "БогАрт"</p>
             <p>ул. Василия Мачуги, д. 139</p>
           </div>
-          
+
         </div>
       </div>
     </div>
