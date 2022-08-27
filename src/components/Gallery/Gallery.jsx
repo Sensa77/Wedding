@@ -44,9 +44,6 @@ export const Gallery = () => {
 
   return (
     <div name="gallery" className={styles.container}>
-      <div className='container'>
-
-      </div>
       <Slider
         {...settings}
         className={styles.slider}
