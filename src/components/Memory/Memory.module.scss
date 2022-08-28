@@ -84,8 +84,8 @@
 
   .background {
     border: 20px solid var(--c-white-1);
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .title, .description, .call {
@@ -105,3 +105,11 @@
     height: 200px;
   }
 }
+
+@media (max-width: 400px) {
+  .background {
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 5px solid var(--c-white-0);
+  }
+ }
