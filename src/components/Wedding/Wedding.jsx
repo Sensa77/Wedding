@@ -12,7 +12,7 @@ export const Wedding = () => {
             <span className={`${styles.caption} ${styles.captionDate}`}>
               Когда
             </span>
-            <p className={styles.description}>30 сентября 2022, 12:20</p>
+            <p className={styles.description}>30 сентября 2022, 12:00</p>
             <p className={styles.description}>30 сентября 2022, 18:00</p>
           </div>
           <img className={styles.picture} src={branch} />
@@ -23,14 +23,14 @@ export const Wedding = () => {
             <a
               href="https://yandex.ru/maps/-/CCUNmAVJ2B"
               target="_blank"
-              className={styles.description}
+              className={styles.description} rel="noreferrer"
             >
               Церемония - ул.Стасова 174/1
             </a>
             <a
               href="https://yandex.ru/maps/-/CCUNmAfmgC"
               target="_blank"
-              className={styles.description}
+              className={styles.description} rel="noreferrer"
             >
               Ресторан - ул. Мачуги, д. 139
             </a>
