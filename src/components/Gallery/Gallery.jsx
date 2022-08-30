@@ -32,7 +32,13 @@ export const Gallery = () => {
     arrows: true,
     responsive: [
       {
-        breakpoint: 640,
+        breakpoint: 750,
+        settings: {
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 700,
         settings: {
           arrows: false,
           dots: false,
