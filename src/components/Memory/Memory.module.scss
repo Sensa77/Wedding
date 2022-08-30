@@ -71,6 +71,13 @@
     padding: 50px;
   }
 
+  .title, .description, .call {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
   .background {
     border: 30px solid var(--c-white-1);
   }
